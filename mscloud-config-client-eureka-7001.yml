@@ -9,7 +9,7 @@ server:
 spring:
    profiles: dev
    application:
-    name: mscloud-eureka-config-client 
+    name: mscloud-config-client-eureka
 eureka: 
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
@@ -29,7 +29,7 @@ server:
 spring:
    profiles: test
    application:
-    name: mscloud-eureka-config-client 
+    name: mscloud-config-client-eureka
 eureka: 
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
